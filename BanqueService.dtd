@@ -1,0 +1,6 @@
+<!ELEMENT BanqueService (comptes?)>
+<!ELEMENT comptes (compte*)>
+<!ELEMENT compte (code, solde, dateCreation)>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT solde (#PCDATA)>
+<!ELEMENT dateCreation (#PCDATA)>
